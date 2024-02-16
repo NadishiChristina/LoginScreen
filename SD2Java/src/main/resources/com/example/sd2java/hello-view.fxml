@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="500.0" prefWidth="200.0" style="-fx-background-color: #483D8B;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="230.0" fitWidth="325.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Desktop/1000_F_287399850_N5SuLt6Y8sNCFXL02by9U8Z88zcOSx8g.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutY="-2.0" prefHeight="70.0" prefWidth="326.0" text="STUDY HUB LOGIN">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="35.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.4834123222748815" endY="0.7440758293838863" startX="0.48341232227488157" startY="0.1990521327014218">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color green="0.8157894611358643" blue="0.7749999761581421" opacity="0.7099999785423279" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.3523489932885906">
+                     <color>
+                        <Color green="0.8157894611358643" blue="0.7749999761581421" opacity="0.7099999785423279" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Label alignment="CENTER" layoutX="27.0" layoutY="364.0" prefHeight="18.0" prefWidth="103.0" text="Username" textFill="#111010">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font></Label>
+      <TextField layoutX="139.0" layoutY="362.0" />
+      <Label layoutX="36.0" layoutY="413.0" text="Password" textFill="#141414">
+         <font>
+            <Font name="Britannic Bold" size="20.0" />
+         </font>
+      </Label>
+      <PasswordField layoutX="139.0" layoutY="411.0" />
+      <Label layoutX="79.0" layoutY="268.0" text="Welcome back!">
+         <font>
+            <Font name="Freestyle Script" size="41.0" />
+         </font>
+         <textFill>
+            <LinearGradient endY="0.6919431279620853" startY="0.6161137440758293">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.03313840180635452" green="0.8947368264198303" blue="0.8803768754005432" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.03313840180635452" green="0.8947368264198303" blue="0.8803768754005432" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>
